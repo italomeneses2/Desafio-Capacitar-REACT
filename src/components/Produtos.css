@@ -1,0 +1,45 @@
+.produtos-section {
+    padding: 9px;
+    text-align: center;
+  }
+  
+  .camiseta-padrao {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin: 10px;
+  }
+  
+  .item-com-imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    max-width: 300px;
+  }
+  
+  .nome-cliente {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+  }
+  
+  .descricao-produto {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    padding: 0 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .camiseta-padrao {
+      width: 180px;
+      height: 220px;
+    }
+    
+    .item-com-imagem {
+      margin-bottom: 30px;
+    }
+  }
